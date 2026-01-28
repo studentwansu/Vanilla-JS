@@ -429,14 +429,108 @@
 // calculate(5, 3, printResult);
 // calculate(5, 3, doubleResult);
 
-const testFunc = (callback) => {
-  callback();
-};
+// const testFunc = (callback) => {
+//   callback();
+// };
 
-testFunc(() => {
-  console.log("콜백 함수 테스트");
-});
+// testFunc(() => {
+//   console.log("콜백 함수 테스트");
+// });
 
-testFunc(function () {
-  console.log("콜백 함수 테스트");
-});
+// testFunc(function () {
+//   console.log("콜백 함수 테스트");
+// });
+
+// 생성자 함수, 리터럴
+
+// let obj = new Object();
+// let obj = {};
+// console.log(obj);
+
+//key value
+
+// let book = {
+//   title: "자바스크립트 첫걸음",
+//   author: "김효빈",
+//   cartegory: "자바스크립트",
+//   year: undefined,
+//   color: function () {
+//     console.log("orange");
+//   },
+// };
+
+// let car = {
+//   name: "붕붕",
+//   model: "morning",
+//   color: "black",
+// };
+
+// console.log(car.name);
+// console.log(car.color);
+
+// console.log(car["name"]);
+// console.log(car["model"]);
+// console.log(car["color"]);
+
+// const getValue = (key) => {
+//   console.log(car[key]);
+// };
+
+// getValue("color");
+
+// let cat = {
+//   age: 2,
+// };
+
+// cat.name = "야옹이";
+// cat["color"] = "white";
+
+// console.log(cat);
+
+// let cat = {
+//   age: 2,
+//   name: "야옹이",
+//   color: "white",
+// };
+
+// cat.name = "옹이";
+// cat["color"] = "yellow";
+
+// console.log(cat);
+
+// const cat = {
+//   age: 2,
+//   name: "야옹이",
+//   color: "white",
+// };
+
+// cat.name = "옹이";
+// cat["color"] = "yellow";
+
+// cat = {
+//   age: 3,
+// };
+
+// delete cat.color;
+// delete cat["age"];
+
+// console.log(cat);
+
+// const person = {
+//   name: "홍길동",
+//   age: 23,
+//   print: function () {
+//     console.log("hello world");
+//   },
+// };
+
+// const person = {
+//   name: "홍길동",
+//   age: 23,
+//   print: function () {
+//     console.log(`제 이름은 ${this.name}입니다.`);
+//   },
+// };
+
+// person.print();
+// person["print"]();
