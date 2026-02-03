@@ -591,3 +591,5 @@
 
 // console.log(colors);
 // console.log(colors.length);
+
+// 생성자 함수
